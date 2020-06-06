@@ -11,7 +11,8 @@
     ],
     "require": {},
     "require-dev": {
-        "phpunit/phpunit": "^9.1"
+        "phpunit/phpunit": "^9.1",
+        "orchestra/testbench": "~3.0"
     },
     "autoload": {
         "psr-4": {
@@ -21,6 +22,16 @@
     "autoload-dev": {
         "psr-4": {
             "Qudus\\ChuckNorrisJokes\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Qudus\\ChuckNorrisJokes\\ChuckNorrisServiceProvider"
+            ],
+            "aliases": {
+                "ChuckNorris": "Qudus\\ChuckNorrisJokes\\Facades\\ChuckNorris"
+            }
         }
     }
 }
