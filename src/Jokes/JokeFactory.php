@@ -1,6 +1,6 @@
 <?php
 
-namespace Adeyems\ChuckNorrisJokes\Jokes;
+namespace Qudus\ChuckNorrisJokes\Jokes;
 
 class JokeFactory
 {

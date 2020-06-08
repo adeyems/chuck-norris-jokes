@@ -1,6 +1,8 @@
 <?php
 
-namespace Adeyems\ChuckNorrisJokes\Facades;
+
+namespace Qudus\ChuckNorrisJokes\Facades;
+
 
 use Illuminate\Support\Facades\Facade;
 
@@ -10,4 +12,5 @@ class ChuckNorris extends Facade
     {
         return 'chuck-norris';
     }
+
 }

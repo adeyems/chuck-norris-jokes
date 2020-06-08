@@ -1,37 +1,36 @@
 {
-    "name": "adeyems/chuck-norris-jokes-laravel",
+    "name": "adeyems/chuck-norris-jokes",
     "description": "Create random Chuck Norris's Jokes",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Adeyemo Adeyems",
+            "name": "Adeyemo Qudus",
             "email": "adeyems@gmail.com"
         }
     ],
     "require": {},
     "require-dev": {
         "phpunit/phpunit": "^9.1",
-        "orchestra/testbench": "^3.0",
-        "mockery/mockery": "dev-master@dev"
+        "orchestra/testbench": "~3.0"
     },
     "autoload": {
         "psr-4": {
-            "Adeyems\\ChuckNorrisJokes\\": "src/"
+            "Qudus\\ChuckNorrisJokes\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Adeyems\\ChuckNorrisJokes\\Tests\\": "tests"
+            "Qudus\\ChuckNorrisJokes\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Adeyems\\ChuckNorrisJokes\\ChuckNorrisJokesServiceProvider"
+                "Qudus\\ChuckNorrisJokes\\ChuckNorrisServiceProvider"
             ],
             "aliases": {
-                "ChuckNorris": "Adeyems\\ChuckNorrisJokes\\Facades\\ChuckNorris"
+                "ChuckNorris": "Qudus\\ChuckNorrisJokes\\Facades\\ChuckNorris"
             }
         }
     }
