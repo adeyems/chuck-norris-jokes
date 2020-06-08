@@ -4,8 +4,8 @@ namespace Adeyems\ChuckNorrisJokes\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class ChuckNorrisJoke extends Model {
-
+class ChuckNorrisJoke extends Model
+{
     protected $table = 'chuck-norris-jokes';
 
     protected $guarded = [];
@@ -14,7 +14,8 @@ class ChuckNorrisJoke extends Model {
      */
     private $joke;
 
-    public function setJoke(string $joke){
+    public function setJoke(string $joke)
+    {
         $this->joke = $joke;
     }
 }
