@@ -1,8 +1,7 @@
 <?php
 
 
-namespace Qudus\ChuckNorrisJokes\Facades;
-
+namespace Adeyems\ChuckNorrisJokes\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
