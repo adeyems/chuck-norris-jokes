@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Adeyems\ChuckNorrisJokes\Http\Controllers;
-
 
 use Adeyems\ChuckNorrisJokes\Facades\ChuckNorris;
 use Illuminate\Routing\Controller;

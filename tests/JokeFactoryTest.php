@@ -2,8 +2,8 @@
 
 namespace Adeyems\ChuckNorrisJokes\Tests;
 
-use PHPUnit\Framework\TestCase;
 use Adeyems\ChuckNorrisJokes\Jokes\JokeFactory;
+use PHPUnit\Framework\TestCase;
 
 class JokeFactoryTest extends TestCase
 {
